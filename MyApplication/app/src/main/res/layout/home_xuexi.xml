@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fillViewport="true"
+        >
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <!--第一个动态-->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#FFFFFF"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:layout_width="40dp"
+                        android:layout_height="40dp"
+                        android:layout_gravity="center"
+                        android:layout_marginLeft="10dp"
+                        android:src="@drawable/abc_1" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginLeft="10dp"
+                        android:text="学霸界"
+                        android:textColor="#EC4B4C"
+                        android:textSize="15sp" />
+                </LinearLayout>
+
+                <LinearLayout
+
+                    android:layout_width="300dp"
+                    android:layout_height="180dp"
+                    android:layout_marginLeft="40dp"
+                    android:background="@drawable/u1645"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_horizontal"
+                        android:padding="5dp"
+                        android:text="涨姿势：十个最有效的学习方法！"
+                        android:textSize="15sp" />
+
+                    <ImageView
+                        android:layout_gravity="center"
+                        android:layout_width="230dp"
+                        android:layout_height="150dp"
+                        android:src="@drawable/abc_11"
+                        android:padding="5dp"/>
+
+                </LinearLayout>
+
+
+            </LinearLayout>
+            <!-- 第二个动态-->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#FFFFFF"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:layout_width="40dp"
+                        android:layout_height="40dp"
+                        android:layout_gravity="center"
+                        android:layout_marginLeft="10dp"
+                        android:src="@drawable/abc_2" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginLeft="10dp"
+                        android:text="英语角"
+                        android:textColor="#EC4B4C"
+                        android:textSize="15sp" />
+                </LinearLayout>
+
+                <LinearLayout
+
+                    android:layout_width="300dp"
+                    android:layout_height="180dp"
+                    android:layout_marginLeft="40dp"
+                    android:background="@drawable/u1645"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_horizontal"
+                        android:padding="5dp"
+                        android:text="学习英语：集中注意力八大方法..."
+                        android:textSize="15sp" />
+
+                    <ImageView
+                        android:layout_gravity="center"
+                        android:layout_width="230dp"
+                        android:layout_height="150dp"
+                        android:src="@drawable/abc_22"
+                        android:padding="5dp"/>
+                </LinearLayout>
+            </LinearLayout>
+            <!--第三个动态-->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#FFFFFF"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:layout_width="40dp"
+                        android:layout_height="40dp"
+                        android:layout_gravity="center"
+                        android:layout_marginLeft="10dp"
+                        android:src="@drawable/abc_3" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginLeft="10dp"
+                        android:text="文学世界"
+                        android:textColor="#EC4B4C"
+                        android:textSize="15sp" />
+                </LinearLayout>
+
+                <LinearLayout
+
+                    android:layout_width="300dp"
+                    android:layout_height="180dp"
+                    android:layout_marginLeft="40dp"
+                    android:background="@drawable/u1645"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_horizontal"
+                        android:padding="5dp"
+                        android:text="超级经典国学100句、值得学习！"
+                        android:textSize="15sp" />
+
+
+                    <ImageView
+                        android:layout_gravity="center"
+                        android:layout_width="230dp"
+                        android:layout_height="150dp"
+                        android:src="@drawable/abc_33"
+                        android:padding="5dp"/>
+
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+
+
+
+</LinearLayout>

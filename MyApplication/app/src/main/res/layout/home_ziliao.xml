@@ -1,0 +1,601 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:fillViewport="true">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:background="#D54643"
+                android:orientation="horizontal">
+
+                <ImageButton
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:layout_gravity="center"
+                    android:background="#D54643"
+                    android:onClick="houtui3"
+                    android:src="@drawable/zuojiantou" />
+
+                <TextView
+                    android:layout_marginLeft="100dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:text="资料"
+                    android:textColor="#FFFFFF"
+                    android:textSize="30sp"
+                    />
+
+                <ImageButton
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="100dp"
+                    android:background="#D54643"
+                    android:src="@drawable/shoucang" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="#FFFFFF"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="10dp">
+
+                </LinearLayout>
+<!--初中-->
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:background="#FFFFFF"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="50dp"
+                        android:background="#01FF66"
+                        android:gravity="center"
+                        android:text="初中"
+                        android:textColor="#FFFFFF"
+                        android:textSize="25sp" />
+
+                </LinearLayout>
+<!--初中-科目 -->
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="60dp"
+                    android:orientation="horizontal"
+                    android:background="@drawable/ziliaokuang"
+                    >
+
+                    <TextView
+                        android:layout_width="100dp"
+                        android:layout_height="match_parent"
+                        android:text="语文"
+                        android:textSize="20sp"
+                        android:gravity="center">
+                    </TextView>
+                    <ImageButton
+                        android:layout_width="30dp"
+                        android:layout_height="30dp"
+                        android:src="@drawable/my_jiantou"
+                        android:layout_gravity="center"
+                        android:background="#FFFFFF"/>
+
+
+                    <TextView
+                        android:layout_marginLeft="50dp"
+                        android:layout_width="100dp"
+                        android:layout_height="match_parent"
+                        android:text="数学"
+                        android:textSize="20sp"
+                        android:gravity="center">
+                    </TextView>
+                    <ImageButton
+                        android:layout_width="30dp"
+                        android:layout_height="30dp"
+                        android:src="@drawable/my_jiantou"
+                        android:layout_gravity="center"
+                        android:background="#FFFFFF"/>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="60dp"
+                    android:orientation="horizontal"
+                    android:background="@drawable/ziliaokuang"
+                    >
+
+                    <TextView
+                        android:layout_width="100dp"
+                        android:layout_height="match_parent"
+                        android:text="英语"
+                        android:textSize="20sp"
+                        android:gravity="center">
+                    </TextView>
+                    <ImageButton
+                        android:layout_width="30dp"
+                        android:layout_height="30dp"
+                        android:src="@drawable/my_jiantou"
+                        android:layout_gravity="center"
+                        android:background="#FFFFFF"/>
+
+
+                    <TextView
+                        android:layout_marginLeft="50dp"
+                        android:layout_width="100dp"
+                        android:layout_height="match_parent"
+                        android:text="物理"
+                        android:textSize="20sp"
+                        android:gravity="center">
+                    </TextView>
+                    <ImageButton
+                        android:layout_width="30dp"
+                        android:layout_height="30dp"
+                        android:src="@drawable/my_jiantou"
+                        android:layout_gravity="center"
+                        android:background="#FFFFFF"/>
+
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="60dp"
+                    android:orientation="horizontal"
+                    android:background="@drawable/ziliaokuang"
+                    >
+
+                    <TextView
+                        android:layout_width="100dp"
+                        android:layout_height="match_parent"
+                        android:text="化学"
+                        android:textSize="20sp"
+                        android:gravity="center">
+                    </TextView>
+                    <ImageButton
+                        android:layout_width="30dp"
+                        android:layout_height="30dp"
+                        android:src="@drawable/my_jiantou"
+                        android:layout_gravity="center"
+                        android:background="#FFFFFF"/>
+
+
+                    <TextView
+                        android:layout_marginLeft="50dp"
+                        android:layout_width="100dp"
+                        android:layout_height="match_parent"
+                        android:text="生物"
+                        android:textSize="20sp"
+                        android:gravity="center">
+                    </TextView>
+                    <ImageButton
+                        android:layout_width="30dp"
+                        android:layout_height="30dp"
+                        android:src="@drawable/my_jiantou"
+                        android:layout_gravity="center"
+                        android:background="#FFFFFF"/>
+
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="60dp"
+                    android:orientation="horizontal"
+                    android:background="@drawable/ziliaokuang"
+                    >
+
+                    <TextView
+                        android:layout_width="100dp"
+                        android:layout_height="match_parent"
+                        android:text="历史"
+                        android:textSize="20sp"
+                        android:gravity="center">
+                    </TextView>
+                    <ImageButton
+                        android:layout_width="30dp"
+                        android:layout_height="30dp"
+                        android:src="@drawable/my_jiantou"
+                        android:layout_gravity="center"
+                        android:background="#FFFFFF"/>
+
+
+                    <TextView
+                        android:layout_marginLeft="50dp"
+                        android:layout_width="100dp"
+                        android:layout_height="match_parent"
+                        android:text="地理"
+                        android:textSize="20sp"
+                        android:gravity="center">
+                    </TextView>
+                    <ImageButton
+                        android:layout_width="30dp"
+                        android:layout_height="30dp"
+                        android:src="@drawable/my_jiantou"
+                        android:layout_gravity="center"
+                        android:background="#FFFFFF"/>
+
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="60dp"
+                    android:orientation="horizontal"
+                    android:background="@drawable/ziliaokuang"
+                    >
+
+                    <TextView
+                        android:layout_width="100dp"
+                        android:layout_height="match_parent"
+                        android:text="政治"
+                        android:textSize="20sp"
+                        android:gravity="center">
+                    </TextView>
+                    <ImageButton
+                        android:layout_width="30dp"
+                        android:layout_height="30dp"
+                        android:src="@drawable/my_jiantou"
+                        android:layout_gravity="center"
+                        android:background="#FFFFFF"/>
+
+
+                    <TextView
+                        android:layout_marginLeft="50dp"
+                        android:layout_width="100dp"
+                        android:layout_height="match_parent"
+                        android:text="体育"
+                        android:textSize="20sp"
+                        android:gravity="center">
+                    </TextView>
+                    <ImageButton
+                        android:layout_width="30dp"
+                        android:layout_height="30dp"
+                        android:src="@drawable/my_jiantou"
+                        android:layout_gravity="center"
+                        android:background="#FFFFFF"/>
+
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="60dp"
+                    android:orientation="horizontal"
+                    android:background="@drawable/ziliaokuang"
+                    >
+
+                    <TextView
+                        android:layout_width="100dp"
+                        android:layout_height="match_parent"
+                        android:text="其他"
+                        android:textSize="20sp"
+                        android:gravity="center">
+                    </TextView>
+                    <ImageButton
+                        android:layout_width="30dp"
+                        android:layout_height="30dp"
+                        android:src="@drawable/my_jiantou"
+                        android:layout_gravity="center"
+                        android:background="#FFFFFF"/>
+
+                </LinearLayout>
+                
+<!-- 高中-->
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="30dp">
+
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:background="#FFFFFF"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="50dp"
+                        android:background="#CC3300"
+                        android:gravity="center"
+                        android:text="高中"
+                        android:textColor="#FFFFFF"
+                        android:textSize="25sp" />
+                </LinearLayout>
+
+<!-- 高中-科目-->
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="60dp"
+                    android:orientation="horizontal"
+                    android:background="@drawable/ziliaokuang"
+                    >
+
+                    <TextView
+                        android:layout_width="100dp"
+                        android:layout_height="match_parent"
+                        android:text="语文"
+                        android:textSize="20sp"
+                        android:gravity="center">
+                    </TextView>
+                    <ImageButton
+                        android:layout_width="30dp"
+                        android:layout_height="30dp"
+                        android:src="@drawable/my_jiantou"
+                        android:layout_gravity="center"
+                        android:background="#FFFFFF"/>
+
+
+                    <TextView
+                        android:layout_marginLeft="50dp"
+                        android:layout_width="100dp"
+                        android:layout_height="match_parent"
+                        android:text="数学"
+                        android:textSize="20sp"
+                        android:gravity="center">
+                    </TextView>
+                    <ImageButton
+                        android:layout_width="30dp"
+                        android:layout_height="30dp"
+                        android:src="@drawable/my_jiantou"
+                        android:layout_gravity="center"
+                        android:background="#FFFFFF"/>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="60dp"
+                    android:orientation="horizontal"
+                    android:background="@drawable/ziliaokuang"
+                    >
+
+                    <TextView
+                        android:layout_width="100dp"
+                        android:layout_height="match_parent"
+                        android:text="英语"
+                        android:textSize="20sp"
+                        android:gravity="center">
+                    </TextView>
+                    <ImageButton
+                        android:layout_width="30dp"
+                        android:layout_height="30dp"
+                        android:src="@drawable/my_jiantou"
+                        android:layout_gravity="center"
+                        android:background="#FFFFFF"/>
+
+
+                    <TextView
+                        android:layout_marginLeft="50dp"
+                        android:layout_width="100dp"
+                        android:layout_height="match_parent"
+                        android:text="物理"
+                        android:textSize="20sp"
+                        android:gravity="center">
+                    </TextView>
+                    <ImageButton
+                        android:layout_width="30dp"
+                        android:layout_height="30dp"
+                        android:src="@drawable/my_jiantou"
+                        android:layout_gravity="center"
+                        android:background="#FFFFFF"/>
+
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="60dp"
+                    android:orientation="horizontal"
+                    android:background="@drawable/ziliaokuang"
+                    >
+
+                    <TextView
+                        android:layout_width="100dp"
+                        android:layout_height="match_parent"
+                        android:text="化学"
+                        android:textSize="20sp"
+                        android:gravity="center">
+                    </TextView>
+                    <ImageButton
+                        android:layout_width="30dp"
+                        android:layout_height="30dp"
+                        android:src="@drawable/my_jiantou"
+                        android:layout_gravity="center"
+                        android:background="#FFFFFF"/>
+
+
+                    <TextView
+                        android:layout_marginLeft="50dp"
+                        android:layout_width="100dp"
+                        android:layout_height="match_parent"
+                        android:text="生物"
+                        android:textSize="20sp"
+                        android:gravity="center">
+                    </TextView>
+                    <ImageButton
+                        android:layout_width="30dp"
+                        android:layout_height="30dp"
+                        android:src="@drawable/my_jiantou"
+                        android:layout_gravity="center"
+                        android:background="#FFFFFF"/>
+
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="60dp"
+                    android:orientation="horizontal"
+                    android:background="@drawable/ziliaokuang"
+                    >
+
+                    <TextView
+                        android:layout_width="100dp"
+                        android:layout_height="match_parent"
+                        android:text="历史"
+                        android:textSize="20sp"
+                        android:gravity="center">
+                    </TextView>
+                    <ImageButton
+                        android:layout_width="30dp"
+                        android:layout_height="30dp"
+                        android:src="@drawable/my_jiantou"
+                        android:layout_gravity="center"
+                        android:background="#FFFFFF"/>
+
+
+                    <TextView
+                        android:layout_marginLeft="50dp"
+                        android:layout_width="100dp"
+                        android:layout_height="match_parent"
+                        android:text="地理"
+                        android:textSize="20sp"
+                        android:gravity="center">
+                    </TextView>
+                    <ImageButton
+                        android:layout_width="30dp"
+                        android:layout_height="30dp"
+                        android:src="@drawable/my_jiantou"
+                        android:layout_gravity="center"
+                        android:background="#FFFFFF"/>
+
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="60dp"
+                    android:orientation="horizontal"
+                    android:background="@drawable/ziliaokuang"
+                    >
+
+                    <TextView
+                        android:layout_width="100dp"
+                        android:layout_height="match_parent"
+                        android:text="政治"
+                        android:textSize="20sp"
+                        android:gravity="center">
+                    </TextView>
+                    <ImageButton
+                        android:layout_width="30dp"
+                        android:layout_height="30dp"
+                        android:src="@drawable/my_jiantou"
+                        android:layout_gravity="center"
+                        android:background="#FFFFFF"/>
+
+
+                    <TextView
+                        android:layout_marginLeft="50dp"
+                        android:layout_width="100dp"
+                        android:layout_height="match_parent"
+                        android:text="体育"
+                        android:textSize="20sp"
+                        android:gravity="center">
+                    </TextView>
+                    <ImageButton
+                        android:layout_width="30dp"
+                        android:layout_height="30dp"
+                        android:src="@drawable/my_jiantou"
+                        android:layout_gravity="center"
+                        android:background="#FFFFFF"/>
+
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="60dp"
+                    android:orientation="horizontal"
+                    android:background="@drawable/ziliaokuang"
+                    >
+
+                    <TextView
+                        android:layout_width="100dp"
+                        android:layout_height="match_parent"
+                        android:text="其他"
+                        android:textSize="20sp"
+                        android:gravity="center">
+                    </TextView>
+                    <ImageButton
+                        android:layout_width="30dp"
+                        android:layout_height="30dp"
+                        android:src="@drawable/my_jiantou"
+                        android:layout_gravity="center"
+                        android:background="#FFFFFF"/>
+
+
+
+                </LinearLayout>
+
+<!-- 大学-->
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="30dp">
+
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:background="#FFFFFF"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="50dp"
+                        android:background="#33CCFF"
+                        android:gravity="center"
+                        android:text="大学"
+                        android:textColor="#FFFFFF"
+                        android:textSize="25sp" />
+                </LinearLayout>
+
+、<!-- 大学-科目-->
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="60dp"
+                    android:orientation="horizontal"
+                    android:background="@drawable/ziliaokuang"
+                    >
+
+                    <TextView
+                        android:layout_width="120dp"
+                        android:layout_height="match_parent"
+                        android:text="英语四级"
+                        android:textSize="20sp"
+                        android:gravity="center">
+                    </TextView>
+                    <ImageButton
+                        android:layout_width="30dp"
+                        android:layout_height="30dp"
+                        android:src="@drawable/my_jiantou"
+                        android:layout_gravity="center"
+                        android:background="#FFFFFF"/>
+
+
+                    <TextView
+                        android:layout_marginLeft="35dp"
+                        android:layout_width="120dp"
+                        android:layout_height="match_parent"
+                        android:text="英语六级"
+                        android:textSize="20sp"
+                        android:gravity="center">
+                    </TextView>
+                    <ImageButton
+
+                        android:layout_width="30dp"
+                        android:layout_height="30dp"
+                        android:src="@drawable/my_jiantou"
+                        android:layout_gravity="center"
+                        android:background="#FFFFFF"/>
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

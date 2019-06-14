@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="90dp"
+    android:background="#F6F6F6"
+    android:orientation="horizontal"
+    >
+
+    <!-- android:layout_width="0dp"：如果涉及到均分，宽度最好为0dp,weight:是将剩余的空间进行均分
+         android:layout_weight="1"：只有线性布局有这个属性-->
+    <LinearLayout
+        android:id="@+id/id_tab_home"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:layout_weight="1"
+        android:background="#FFFFFF"
+        >
+
+        <!-- android:clickable="false"：当在使用ImageButton覆盖布局之上事，你只给布局设置了监听，所以点击ImageButton并没有反应，此条语句可以很好的解决此类问题
+                                        意味：这里不能点击，所以不会触发点击时间，通俗的说、可以看做是热区，是透明的-->
+        <ImageButton
+            android:id="@+id/id_tab_home_img"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:clickable="false"
+            android:src="@drawable/home_1"
+            android:background="#ffffff"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="首页"
+            android:textColor="#000000" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/id_tab_find"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:layout_weight="1"
+        android:background="#FFFFFF"
+        >
+
+        <ImageButton
+            android:id="@+id/id_tab_find_img"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:clickable="false"
+            android:src="@drawable/find_2"
+            android:background="#ffffff"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="发现"
+            android:textColor="#000000" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/id_tab_student"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:clickable="false"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:layout_weight="1"
+        android:background="#FFFFFF"
+        >
+
+        <ImageButton
+            android:id="@+id/id_tab_student_img"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:clickable="false"
+            android:src="@drawable/studentcircle_2"
+            android:background="#ffffff"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="学生圈"
+            android:textColor="#000000" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/id_tab_news"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:layout_weight="1"
+        android:background="#FFFFFF"
+        >
+
+        <ImageButton
+            android:id="@+id/id_tab_news_img"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:clickable="false"
+            android:src="@drawable/news_2"
+            android:background="#ffffff"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="消息"
+            android:textColor="#000000" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/id_tab_my"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:layout_weight="1"
+        android:background="#FFFFFF"
+        >
+
+        <ImageButton
+            android:id="@+id/id_tab_my_img"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:clickable="false"
+            android:src="@drawable/my_2"
+            android:background="#ffffff"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="我的"
+            android:textColor="#000000" />
+    </LinearLayout>
+
+
+</LinearLayout>

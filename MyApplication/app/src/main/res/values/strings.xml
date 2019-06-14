@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">易学习</string>
+
+    <string name="tab_1">主页1</string>
+    <string name="tab_2">主页2</string>
+    <string name="sort">欢迎来到分类页面</string>
+    <string name="person">欢迎来到我的页面</string>
+    <string name="search">欢迎来到搜索页面</string>
+    <string name="shop">欢迎来到购物页面</string>
+    <string name="home_1">欢迎来到第一主页页面</string>
+    <string name="home_2">欢迎来到第二主页页面</string>
+    <string name="action_settings">Settings</string>
+</resources>

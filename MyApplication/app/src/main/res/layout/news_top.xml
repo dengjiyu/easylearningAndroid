@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="60dp"
+    android:orientation="horizontal">
+
+
+    <!-- android:layout_width="0dp"：如果涉及到均分，宽度最好为0dp,weight:是将剩余的空间进行均分
+         android:layout_weight="1"：只有线性布局有这个属性-->
+
+    <LinearLayout
+        android:id="@+id/id_tab_home2"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="0.8"
+        android:background="#D54643"
+        android:gravity="center"
+        android:orientation="vertical"
+
+        >
+
+        <!-- android:clickable="false"：当在使用ImageButton覆盖布局之上事，你只给布局设置了监听，所以点击ImageButton并没有反应，此条语句可以很好的解决此类问题
+                                        意味：这里不能点击，所以不会触发点击时间，通俗的说、可以看做是热区，是透明的-->
+        <ImageButton
+            android:layout_marginLeft="20dp"
+            android:id="@+id/id_tab_home_img2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="#ffffff"
+            android:clickable="false"
+            android:src="@drawable/zhitiao1" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/id_tab_cart2"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="0.8"
+        android:background="#D54643"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <ImageButton
+            android:id="@+id/id_tab_cart_img2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="#ffffff"
+            android:clickable="false"
+            android:src="@drawable/quanzi2" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/id_tab_classify2"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="0.8"
+        android:background="#D54643"
+        android:clickable="false"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <ImageButton
+            android:layout_marginRight="20dp"
+            android:id="@+id/id_tab_classify_img2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="#ffffff"
+            android:clickable="false"
+            android:src="@drawable/haoyou2" />
+
+
+    </LinearLayout>
+
+
+
+    <LinearLayout
+        android:id="@+id/tianjiahaoyoulayout"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="0.5"
+        android:background="#D54643"
+        android:clickable="false"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <ImageButton
+
+            android:layout_marginRight="5dp"
+            android:id="@+id/tianjiahoayou"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="#D54643"
+            android:clickable="false"
+            android:src="@drawable/tianjiahaoyou"
+            android:onClick="addFriends"/>
+
+
+
+
+    </LinearLayout>
+
+</LinearLayout>

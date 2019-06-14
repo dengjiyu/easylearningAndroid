@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="140dp"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:background="#D54643"
+        android:orientation="horizontal">
+
+        <ImageButton
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_gravity="center"
+            android:background="#D54643"
+            android:onClick="houtui2"
+            android:src="@drawable/zuojiantou" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginLeft="85dp"
+            android:text="监督圈"
+            android:textColor="#FFFFFF"
+            android:textSize="30sp" />
+    </LinearLayout>
+
+
+    <!-- android:layout_width="0dp"：如果涉及到均分，宽度最好为0dp,weight:是将剩余的空间进行均分
+         android:layout_weight="1"：只有线性布局有这个属性-->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="80dp">
+
+        <LinearLayout
+            android:id="@+id/id_tab_home3"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="#ffffff"
+            android:gravity="center"
+            android:orientation="vertical"
+
+            >
+
+            <!-- android:clickable="false"：当在使用ImageButton覆盖布局之上事，你只给布局设置了监听，所以点击ImageButton并没有反应，此条语句可以很好的解决此类问题
+                                            意味：这里不能点击，所以不会触发点击时间，通俗的说、可以看做是热区，是透明的-->
+            <ImageButton
+                android:id="@+id/id_tab_home_img3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="#ffffff"
+                android:clickable="false"
+                android:src="@drawable/t_haoyou1" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/id_tab_cart3"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="#ffffff"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <ImageButton
+                android:id="@+id/id_tab_cart_img3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="#ffffff"
+                android:clickable="false"
+                android:src="@drawable/t_jiating2" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/id_tab_classify3"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="#ffffff"
+            android:clickable="false"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <ImageButton
+                android:id="@+id/id_tab_classify_img3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="#ffffff"
+                android:clickable="false"
+                android:src="@drawable/t_banji2" />
+
+
+        </LinearLayout>
+    </LinearLayout>
+
+
+</LinearLayout>

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="vertical">
+
+        <djy.home.SlideShowView
+            android:id="@+id/slideshowView"
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:layout_centerHorizontal="true"></djy.home.SlideShowView>
+
+
+        <GridView
+            android:id="@+id/gv_home"
+            android:layout_width="match_parent"
+            android:layout_height="82dp"
+            android:background="#ffffff"
+            android:horizontalSpacing="0dp"
+            android:numColumns="4"
+            android:verticalSpacing="0dp"></GridView>
+
+        <include layout="@layout/home_top" />
+
+        <android.support.v4.view.ViewPager
+            android:id="@+id/id_viewpager0"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#ffffff"></android.support.v4.view.ViewPager>
+
+
+    </LinearLayout>
+
+
+</LinearLayout>

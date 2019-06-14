@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    android:padding="10dp">
+
+    <ImageView
+
+        android:layout_marginLeft="10dp"
+        android:id="@+id/pic"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:src="@drawable/my_xuexiqingkuang" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginLeft="15dp">
+
+        <TextView
+            android:layout_marginLeft="10dp"
+            android:layout_gravity="center"
+            android:id="@+id/text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="学币兑换"
+            android:textColor="#DC143C"
+            android:padding="5dp"
+            android:textSize="20sp"
+            />
+
+
+        <ImageView
+            android:layout_marginLeft="100dp"
+            android:id="@+id/pic1"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:src="@drawable/my_jiantou" />
+
+    </LinearLayout>
+</LinearLayout>

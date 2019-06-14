@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:background="#D54643"
+        android:orientation="horizontal">
+
+        <ImageButton
+            android:onClick="tuihui3"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:src="@drawable/zuojiantou"
+            android:background="#D54643"
+            android:layout_gravity="center"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="添加好友"
+            android:textSize="30sp"
+            android:layout_gravity="center"
+            android:textColor="#ffffff"
+            android:layout_marginLeft="70dp"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:orientation="horizontal"
+        android:background="#CCCCCC">
+
+
+        <EditText
+            android:background="@drawable/shurukuang2"
+            android:id="@+id/AddFriend"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/imageView"
+            android:maxLines="1"
+            android:maxLength="16"
+            android:inputType="number"
+            android:hint="  请输入要添加的好友ID"
+            android:layout_gravity="center"
+            android:layout_marginLeft="20dp"
+
+            />
+
+        <TextView
+            android:id="@+id/friendSearch"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="#CCCCCC"
+            android:textSize="25sp"
+            android:textColor="#FFFFFF"
+            android:text="搜索"
+            android:layout_gravity="center"
+            android:layout_marginLeft="20sp"/>
+
+
+    </LinearLayout>
+
+</LinearLayout>
